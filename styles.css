@@ -46,6 +46,7 @@ ul{
     cursor: pointer;
     padding: 4px;
     width: 6rem;
+    margin: 0.2rem;
 }
 
 .inputBox{
@@ -53,6 +54,6 @@ ul{
     border: 1px solid #60A5FA;
     padding: 0.3rem;
     width: 15rem;
-    
+    margin: 0.2rem;
 
 }
