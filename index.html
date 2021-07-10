@@ -11,25 +11,29 @@
 
 <body>
 
-    <div class="container">
+    <section class="container">
 
-        <div class="inputbox">
-            
-            <input type="number" class="inputOne" id="input-one">
-            <input type="number" class="inputTwo" id="input-two">
+        <section class="box inputSection">
 
-        </div>
-        <div class="btnbox">
-            <button class="btn" id="add">ADD</button>
-            <button class="btn" id="sub">SUBTRACT</button>
-            <button class="btn" id="mul">MULTIPLY</button>
-            <button class="btn" id="div">DIVIDE</button>
+            <input type="number" class="inputOne inputBox" id="input-one" placeholder="Enter your 1st number" >
+            <input type="number" class="inputTwo inputBox" id="input-two" placeholder="Enter your 2nd number" >
 
-        </div>
+        </section>
+        <section class="box">
+            <ul>
+                <li class="list-item-inline"><button class="btn" id="add">ADD</button></li>
+                <li class="list-item-inline"><button class="btn" id="sub">SUBTRACT</button></li>
+                <li class="list-item-inline"><button class="btn" id="mul">MULTIPLY</button></li>
+                <li class="list-item-inline"> <button class="btn" id="div">DIVIDE</button></li>
+            </ul>
 
-        <div class="outputDiv" id="outputDiv"></div>
 
-    </div>
+
+        </section>
+        <div class="outputDiv box" id="outputDiv" ></div>
+       
+
+    </section>
 
     <script src="script.js" type="text/javascript" defer></script>
 

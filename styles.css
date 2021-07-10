@@ -1,26 +1,52 @@
-body{
-    font-family: 'Quicksand', sans-serif;
-    margin: 0px;
-}
+
 
 .outputDiv {
-    border: 2px solid black;
+    border: 1px solid black;
     min-height: 4rem;
-    margin: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+.inputSection{
+    padding: 0.7rem;
+}
+.box{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 1rem;
+}
+ul{
+    padding-right: 2rem;
 }
 
 .container{
-    margin: auto;
+    background-color: #E0E7FF;
     max-width: 600px;
-}
-
-.inputbox{
-    padding: 1rem;
     margin: auto;
+    border-radius: 1rem;
+    padding : 1rem;
 }
 
-.btnbox{
-    margin: auto;
-    
+.btn{
+    background-color: #A5B4FC;
+    color: black;
+    border-radius: 0.6rem;
+    border: 1px solid black;
 }
 
+.inputBox{
+    border-radius: 1rem;
+    border: 1px solid black;
+    padding: 0.3rem;
+
+}
