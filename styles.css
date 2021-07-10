@@ -1,0 +1,26 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+.outputDiv {
+    border: 2px solid black;
+    min-height: 4rem;
+    margin: 2rem;
+}
+
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+
+.inputbox{
+    padding: 1rem;
+    margin: auto;
+}
+
+.btnbox{
+    margin: auto;
+    
+}
+
