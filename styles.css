@@ -1,7 +1,7 @@
 
 
 .outputDiv {
-    border: 1px solid black;
+    border: 1px solid #60A5FA;
     min-height: 4rem;
     border-radius: 1rem;
     background-color: white;
@@ -35,18 +35,21 @@ ul{
     margin: auto;
     border-radius: 1rem;
     padding : 1rem;
+    border: 1px solid #60A5FA;
 }
 
 .btn{
     background-color: #A5B4FC;
-    color: black;
+    color: #1F2937;
     border-radius: 0.6rem;
-    border: 1px solid black;
+    border: 1px solid #1F2937;
+    cursor: pointer;
+    padding: 4px;
 }
 
 .inputBox{
     border-radius: 1rem;
-    border: 1px solid black;
+    border: 1px solid #60A5FA;
     padding: 0.3rem;
 
 }
